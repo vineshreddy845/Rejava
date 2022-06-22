@@ -1,0 +1,20 @@
+public class Nonprimitivedatatyopes {
+    public static void main(String args[]) {
+        /*
+         * non-primitive datatypes created by programmer used for methods to performe
+         * certain action.
+         * Arrays= Array is a collection of similiar data->syntax->arrayname[]
+         * string
+         * classes
+         * 
+         */
+        int a[] = { 10, 20, 30 };
+        String s = "vinesh";
+        int n, i;
+        n = a.length;
+        for (i = 0; i < n; i++) {
+            System.out.println("a= " + a[i]);
+        }
+
+    }
+}
